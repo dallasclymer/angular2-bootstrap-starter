@@ -6,7 +6,7 @@ var CompressionPlugin = require('compression-webpack-plugin');
 /*eslint no-process-env:0, camelcase:0*/
 var isProduction = (process.env.NODE_ENV || 'development') === 'production';
 
-var src = './samples/webpack/public';
+var src = './samples/webpack';
 //var absSrc = path.join(__dirname, src);
 var dest = '/build';
 var absDest = path.join(__dirname, dest);
@@ -35,7 +35,7 @@ var config = {
       'angular2/angular2'
     ],
 
-    'app': [
+    app: [
       src
     ]
   },

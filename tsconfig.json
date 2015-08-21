@@ -13,13 +13,13 @@
     "listFiles": true,
     "outDir": "dist"
   },
+  "filesGlob": [
+    "./**/*.ts",
+    "!./node_modules/**/*.ts"
+  ],
   "files": [
-    "node_modules/typescript/bin/lib.dom.d.ts",
     "typings/tsd.d.ts",
-    "node_modules/ng2-bootstrap/src/typings/es6-object.d.ts",
-    "node_modules/ng2-bootstrap/src/typings/ng2-custom.d.ts",
-
-    "samples/webpack/public/index.ts"
+    "samples/webpack/index.ts"
   ],
   "exclude": [
     "node_modules"
