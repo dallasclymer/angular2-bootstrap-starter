@@ -1,0 +1,27 @@
+{
+  "version": "1.5.3",
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "declaration": true,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "noLib": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "listFiles": true,
+    "outDir": "dist"
+  },
+  "files": [
+    "node_modules/typescript/bin/lib.dom.d.ts",
+    "typings/tsd.d.ts",
+    "node_modules/ng2-bootstrap/src/typings/es6-object.d.ts",
+    "node_modules/ng2-bootstrap/src/typings/ng2-custom.d.ts",
+
+    "samples/webpack/public/index.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
