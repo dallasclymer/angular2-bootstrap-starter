@@ -1,10 +1,25 @@
-Not yet ready
+# Angular2 bootstrap starter
+
+You will need globally installed `typescript` and `webpack`, `webpack-dev-server`
+for webpack sample.
 
 ```bash
 npm i -g typescript webpack webpack-dev-server
-
-npm i ng2-bootstrap@0.34.14 -S
-npm i angular2@2.0.0-alpha.34 rtts_assert@2.0.0-alpha.34 reflect-metadata  traceur-runtime zone.js es6-promise -S
-npm i webpack webpack-dev-server -D
-npm i eslint babel-eslint gulp-eslint gulp-size gulp-tslint pre-commit typescript-simple-loader -D
 ```
+
+## Install dependencies
+
+```bash
+npm i
+```
+
+## Webpack demo
+
+Start webpack demo and then open [`http://localhost:3000/`](http://localhost:3000)
+
+```bash
+npm start
+```
+
+
+Happy hacking!
