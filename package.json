@@ -20,6 +20,14 @@
   ],
   "author": "Dmitriy Shekhovtsov <valorkin@gmail.com>",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/valor-software/angular2-bootstrap-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/valor-software/angular2-bootstrap-starter/issues"
+  },
+  "homepage": "https://github.com/valor-software/angular2-bootstrap-starter#readme",
   "dependencies": {
     "angular2": "2.0.0-alpha.35",
     "es6-promise": "^3.0.2",
