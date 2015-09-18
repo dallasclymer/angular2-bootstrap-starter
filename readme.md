@@ -11,6 +11,7 @@ npm i -g typescript webpack webpack-dev-server
 
 ```bash
 npm i
+tsd link
 ```
 
 ## Webpack demo
