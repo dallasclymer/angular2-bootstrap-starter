@@ -12,5 +12,6 @@ npm-debug.log
 # ignore build and dist for now
 /build
 /dist
-/src/**/*.js
-/src/**/*.js.map
+/samples/**/*.js
+/samples/**/*.js.map
+/samples/**/*.d.ts

@@ -1,7 +1,5 @@
-/// <reference path="../../typings/tsd.d.ts" />
 import {Component, View, bootstrap, CORE_DIRECTIVES, FORM_DIRECTIVES} from 'angular2/angular2';
-
-import {Alert, Rating} from 'ng2-bootstrap';
+import {Alert, Rating} from 'ng2-bootstrap/ng2-bootstrap';
 
 @Component({
   selector: 'app'

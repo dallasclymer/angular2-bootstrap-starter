@@ -28,11 +28,10 @@ var config = {
   entry: {
     angular2: [
       // Angular 2 Deps
-      'traceur-runtime',
       'zone.js',
       'reflect-metadata',
-      'rtts_assert/rtts_assert',
-      'angular2/angular2'
+      'angular2/angular2',
+      'angular2/core'
     ],
 
     app: [
@@ -66,18 +65,17 @@ var config = {
       // support for .html as raw text
       {test: /\.html$/, loader: 'raw'},
 
-      // Support for .ts files.
+      // Support for .ts files
       {
         test: /\.ts$/,
-        loader: 'typescript-simple?ignoreWarnings[]=2345',
+        loader: 'ts',
         exclude: [
+          /\.min\.js$/,
           /\.spec\.ts$/,
-          /\.e2e\.ts$/,
-          /web_modules/,
-          /test/,
-          /node_modules/
+          /\.e2e\.ts$/
         ]
       }
+
     ],
     noParse: [
       /rtts_assert\/src\/rtts_assert/

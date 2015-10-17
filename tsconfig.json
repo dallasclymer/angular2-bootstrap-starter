@@ -1,27 +1,20 @@
 {
-  "version": "1.5.3",
+  "version": "1.6.2",
   "compilerOptions": {
     "target": "es5",
     "module": "commonjs",
+    "sourceMap": true,
     "declaration": true,
-    "noImplicitAny": false,
     "removeComments": true,
-    "noLib": false,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "sourceMap": true,
-    "listFiles": true,
-    "outDir": "dist"
+    "listFiles": false,
+    "noLib": false
   },
-  "filesGlob": [
-    "./**/*.ts",
-    "!./node_modules/**/*.ts"
-  ],
-  "files": [
-    "typings/tsd.d.ts",
-    "samples/webpack/index.ts"
-  ],
   "exclude": [
     "node_modules"
+  ],
+  "files": [
+    "samples/webpack/index.ts"
   ]
 }
