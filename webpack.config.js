@@ -26,17 +26,8 @@ var config = {
   },
 
   entry: {
-    angular2: [
-      // Angular 2 Deps
-      'zone.js',
-      'reflect-metadata',
-      'angular2/angular2',
-      'angular2/core'
-    ],
-
-    app: [
-      src
-    ]
+    app: [ src+'/index' ],
+    vendor: [ src+'/vendor.ts' ]
   },
 
   output: {
@@ -78,15 +69,16 @@ var config = {
 
     ],
     noParse: [
-      /rtts_assert\/src\/rtts_assert/
+      /rtts_assert\/src\/rtts_assert/ ,
+      /angular2\/bundles\/.+/
     ]
   },
 
   plugins: [
     new webpack.optimize.CommonsChunkPlugin({
-      name: 'angular2',
+      name: 'vendor',
       minChunks: Infinity,
-      filename: 'angular2.js'
+      filename: 'vendor.bundle.js'
     }),
     new webpack.optimize.DedupePlugin({
       __isProduction: isProduction
