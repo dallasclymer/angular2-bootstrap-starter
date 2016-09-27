@@ -36,7 +36,7 @@
     "ng2-bootstrap": "1.0.17"
   },
   "devDependencies": {
-    "babel-eslint": "^6.1.2",
+    "babel-eslint": "^7.0.0",
     "compression-webpack-plugin": "^0.3.1",
     "eslint": "^3.0.1",
     "gulp": "^3.9.1",
