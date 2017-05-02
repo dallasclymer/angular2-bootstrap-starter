@@ -27,28 +27,28 @@
   },
   "homepage": "https://github.com/valor-software/angular2-bootstrap-starter#readme",
   "dependencies": {
-    "es6-promise": "3.0.2",
-    "es6-shim": "0.33.13",
-    "reflect-metadata": "0.1.2",
-    "rxjs": "5.0.0-beta.0",
-    "zone.js": "0.6.12",
-    "angular2": "2.0.0-beta.0",
-    "ng2-bootstrap": "1.0.17"
+    "es6-promise": "4.1.0",
+    "es6-shim": "0.35.3",
+    "reflect-metadata": "0.1.10",
+    "rxjs": "5.3.0",
+    "zone.js": "0.8.9",
+    "angular2": "2.0.0-beta.21",
+    "ng2-bootstrap": "1.6.3"
   },
   "devDependencies": {
-    "babel-eslint": "^6.1.2",
-    "compression-webpack-plugin": "^0.3.1",
+    "babel-eslint": "^7.2.3",
+    "compression-webpack-plugin": "^0.4.0",
     "eslint": "^3.0.1",
     "gulp": "^3.9.1",
     "gulp-eslint": "^3.0.1",
     "gulp-size": "^2.1.0",
-    "gulp-tslint": "^6.0.1",
+    "gulp-tslint": "^8.0.0",
     "html-loader": "^0.4.0",
     "pre-commit": "^1.1.2",
     "require-dir": "^0.3.0",
-    "ts-loader": "^0.8.2",
-    "typescript": "^1.8.10",
-    "webpack": "^1.13.1",
-    "webpack-dev-server": "^1.14.1"
+    "ts-loader": "^2.0.3",
+    "typescript": "^2.3.2",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.5"
   }
 }
