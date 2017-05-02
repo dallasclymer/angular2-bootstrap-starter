@@ -1,5 +1,7 @@
 # Angular2 bootstrap starter
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/valor-software/angular2-bootstrap-starter.svg)](https://greenkeeper.io/)
+
 ## Starting project locally
 You will need globally installed `typescript` and `webpack`, `webpack-dev-server`
 for webpack sample.
